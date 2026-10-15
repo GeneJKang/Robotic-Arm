@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:28:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+[0m
+-- Configuring incomplete, errors occurred!

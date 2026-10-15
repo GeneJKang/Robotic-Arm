@@ -1,0 +1,6 @@
+source;share/arm_kinematics/hook/pythonpath.dsv
+source;share/arm_kinematics/hook/pythonpath.sh
+source;share/arm_kinematics/hook/ament_prefix_path.dsv
+source;share/arm_kinematics/hook/ament_prefix_path.sh
+source;../../build/arm_kinematics/share/arm_kinematics/hook/pythonpath_develop.dsv
+source;../../build/arm_kinematics/share/arm_kinematics/hook/pythonpath_develop.sh

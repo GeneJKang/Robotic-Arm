@@ -1,0 +1,41 @@
+[0.860s] Invoking command in '/home/gene217/Projects/Arm/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gene217/Projects/Arm/build/arm_description -- -j16 -l16
+[1.003s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.792s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.856s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.209s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.209s] -- Configured cppcheck include dirs: 
+[2.209s] -- Configured cppcheck exclude dirs and/or files: 
+[2.212s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.212s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.213s] -- Added test 'lint_cmake' to check CMake code style
+[2.215s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.218s] -- Added test 'uncrustify' to check C / C++ code style
+[2.218s] -- Configured uncrustify additional arguments: 
+[2.229s] -- Added test 'xmllint' to check XML markup files
+[2.230s] -- Configuring done (1.3s)
+[2.264s] -- Generating done (0.0s)
+[2.272s] -- Build files have been written to: /home/gene217/Projects/Arm/build/arm_description
+[2.343s] Invoked command in '/home/gene217/Projects/Arm/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gene217/Projects/Arm/build/arm_description -- -j16 -l16
+[2.373s] Invoking command in '/home/gene217/Projects/Arm/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gene217/Projects/Arm/build/arm_description
+[2.399s] -- Install configuration: ""
+[2.400s] -- Execute custom install script
+[2.401s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/urdf/arm.urdf.xacro
+[2.402s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/launch/display.launch.py
+[2.402s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/rviz/Rev1.rviz
+[2.403s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/rviz/placeholder.c
+[2.403s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[2.404s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[2.404s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[2.405s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[2.405s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/path.sh
+[2.406s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/path.dsv
+[2.406s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.bash
+[2.406s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.sh
+[2.407s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.zsh
+[2.407s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.dsv
+[2.407s] -- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/package.dsv
+[2.438s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[2.438s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[2.438s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[2.439s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/package.xml
+[2.443s] Invoked command in '/home/gene217/Projects/Arm/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gene217/Projects/Arm/build/arm_description

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<robot name = "arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+
+<xacro:property name="box" value="0.2"/>
+<xacro:property name="link" value="${box/6}"/>
+<xacro:property name="tool" value="0.05"/>
+
+<link name ="base_link">
+    <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="${box} ${box} ${box}"/>
+        </geometry>
+        <material name="blue">
+            <color rgba = "0 0 1 1"/>
+        </material>
+    </visual>
+</link>
+
+<joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 ${box}" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="${-pi}" upper="${pi}" effort="10" velocity="1.0"/>
+</joint>
+
+<link name ="link1">
+    <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="${link} ${link} ${box}"/>
+        </geometry>
+        <material name="red">
+            <color rgba = "1 0 0 1"/>
+        </material>
+    </visual>
+</link>
+
+<joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0 ${box}" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="${-pi/2}" upper="${pi/2}" effort="10" velocity="1.0"/>
+</joint>
+
+<link name ="link2">
+    <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="${link} ${link} ${box}"/>
+        </geometry>
+        <material name="red">
+            <color rgba = "1 0 0 1"/>
+        </material>
+    </visual>
+</link>
+
+<joint name="joint3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0 0 ${box}" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="${-2.6}" upper="${2.6}" effort="10" velocity="1.0"/>
+</joint>
+
+<link name ="link3">
+    <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="${link} ${link} ${box}"/>
+        </geometry>
+        <material name="red">
+            <color rgba = "1 0 0 1"/>
+        </material>
+    </visual>
+</link>
+
+<joint name="joint4" type="revolute">
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin xyz="0 0 ${box}" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="${-pi}" upper="${pi}" effort="10" velocity="1.0"/>
+</joint>
+
+<link name ="link4">
+    <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="${link} ${link} ${box}"/>
+        </geometry>
+        <material name="red">
+            <color rgba = "1 0 0 1"/>
+        </material>
+    </visual>
+</link>
+
+<joint name="joint5" type="revolute">
+    <parent link="link4"/>
+    <child link="link5"/>
+    <origin xyz="0 0 ${box}" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="${-2.1}" upper="${2.1}" effort="10" velocity="1.0"/>
+</joint>
+
+<link name ="link5">
+    <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="${link} ${link} ${box}"/>
+        </geometry>
+        <material name="red">
+            <color rgba = "1 0 0 1"/>
+        </material>
+    </visual>
+</link>
+
+<joint name="joint6" type="revolute">
+    <parent link="link5"/>
+    <child link="link6"/>
+    <origin xyz="0 0 ${box}" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="${-pi}" upper="${pi}" effort="10" velocity="1.0"/>
+</joint>
+
+<link name ="link6">
+    <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="${link} ${link} ${box}"/>
+        </geometry>
+        <material name="red">
+            <color rgba = "1 0 0 1"/>
+        </material>
+    </visual>
+</link>
+
+<joint name="tool0_joint" type="fixed">
+    <parent link="link6"/>
+    <child link="tool0"/>
+    <origin xyz="0 0 ${box}" rpy="0 0 0"/>
+</joint>
+
+<link name ="tool0">
+</link>
+
+</robot> 

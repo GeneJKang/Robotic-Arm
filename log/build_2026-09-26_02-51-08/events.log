@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000613] (arm_description) JobQueued: {'identifier': 'arm_description', 'dependencies': OrderedDict()}
+[0.002099] (arm_description) JobStarted: {'identifier': 'arm_description'}
+[0.021220] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'cmake'}
+[0.022918] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/gene217/Projects/Arm/src/arm_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/gene217/Projects/Arm/install/arm_description'], 'cwd': '/home/gene217/Projects/Arm/build/arm_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gene217', 'GIT_ASKPASS': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/gene217', 'OLDPWD': '/home/gene217/Projects', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-60288c8d-551e-40ee-b10c-2644cf95d8c0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gene217', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/690_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/gene217/.bun/bin:/home/gene217/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/gene217/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/home/gene217/.local/bin:/home/gene217/.bun/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Meta Horizon/Support/oculus-runtime:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/SDK Manager:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/hdnat/.local/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/hdnat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hdnat/AppData/Roaming/npm:/mnt/c/Users/hdnat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Ollama:/mnt/c/Users/hdnat/.lmstudio/bin:/mnt/c/Users/hdnat/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Antigravity/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/iverilog/bin:/mnt/c/iverilog/gtkwave/bin:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0/Scripts:/mnt/c/Users/hdnat/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/hdnat/.bun/bin:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/gene217/fastdds_wifi.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76369b99a3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/gene217/Projects/Arm/build/arm_description', 'COPILOT_DEBUG_NONCE': '22ef15a76d5a7fa67c2b1122cb96fcc4', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099670] (-) TimerEvent: {}
+[0.200792] (-) TimerEvent: {}
+[0.302254] (-) TimerEvent: {}
+[0.403888] (-) TimerEvent: {}
+[0.505755] (-) TimerEvent: {}
+[0.606725] (-) TimerEvent: {}
+[0.708838] (-) TimerEvent: {}
+[0.810212] (-) TimerEvent: {}
+[0.829641] (arm_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.911102] (-) TimerEvent: {}
+[1.012219] (-) TimerEvent: {}
+[1.122956] (-) TimerEvent: {}
+[1.233503] (-) TimerEvent: {}
+[1.339992] (-) TimerEvent: {}
+[1.450606] (-) TimerEvent: {}
+[1.551803] (-) TimerEvent: {}
+[1.653237] (-) TimerEvent: {}
+[1.759790] (-) TimerEvent: {}
+[1.870381] (-) TimerEvent: {}
+[1.980962] (-) TimerEvent: {}
+[2.091551] (-) TimerEvent: {}
+[2.202125] (-) TimerEvent: {}
+[2.312808] (-) TimerEvent: {}
+[2.423530] (-) TimerEvent: {}
+[2.534288] (-) TimerEvent: {}
+[2.644911] (-) TimerEvent: {}
+[2.754637] (-) TimerEvent: {}
+[2.865231] (-) TimerEvent: {}
+[2.975784] (-) TimerEvent: {}
+[3.086305] (-) TimerEvent: {}
+[3.196928] (-) TimerEvent: {}
+[3.307549] (-) TimerEvent: {}
+[3.418148] (-) TimerEvent: {}
+[3.527178] (-) TimerEvent: {}
+[3.637811] (-) TimerEvent: {}
+[3.748401] (-) TimerEvent: {}
+[3.858564] (-) TimerEvent: {}
+[3.960640] (-) TimerEvent: {}
+[4.043797] (arm_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.061470] (-) TimerEvent: {}
+[4.171852] (-) TimerEvent: {}
+[4.282509] (-) TimerEvent: {}
+[4.392145] (-) TimerEvent: {}
+[4.502758] (-) TimerEvent: {}
+[4.613329] (-) TimerEvent: {}
+[4.719687] (-) TimerEvent: {}
+[4.830216] (-) TimerEvent: {}
+[4.940650] (-) TimerEvent: {}
+[5.051316] (-) TimerEvent: {}
+[5.161911] (-) TimerEvent: {}
+[5.272424] (-) TimerEvent: {}
+[5.383038] (-) TimerEvent: {}
+[5.493721] (-) TimerEvent: {}
+[5.604402] (-) TimerEvent: {}
+[5.714986] (-) TimerEvent: {}
+[5.825524] (-) TimerEvent: {}
+[5.936309] (-) TimerEvent: {}
+[6.046189] (-) TimerEvent: {}
+[6.156766] (-) TimerEvent: {}
+[6.267455] (-) TimerEvent: {}
+[6.378089] (-) TimerEvent: {}
+[6.482843] (-) TimerEvent: {}
+[6.585887] (-) TimerEvent: {}
+[6.696410] (-) TimerEvent: {}
+[6.805351] (-) TimerEvent: {}
+[6.915108] (-) TimerEvent: {}
+[7.025822] (-) TimerEvent: {}
+[7.052405] (arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.133454] (-) TimerEvent: {}
+[7.244049] (-) TimerEvent: {}
+[7.354701] (-) TimerEvent: {}
+[7.465249] (-) TimerEvent: {}
+[7.575838] (-) TimerEvent: {}
+[7.686328] (-) TimerEvent: {}
+[7.796905] (-) TimerEvent: {}
+[7.907493] (-) TimerEvent: {}
+[8.018083] (-) TimerEvent: {}
+[8.128801] (-) TimerEvent: {}
+[8.132714] (arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.160782] (arm_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.162785] (arm_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.165907] (arm_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.229578] (-) TimerEvent: {}
+[8.330612] (-) TimerEvent: {}
+[8.432086] (-) TimerEvent: {}
+[8.533937] (-) TimerEvent: {}
+[8.630260] (arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.634509] (-) TimerEvent: {}
+[8.736783] (-) TimerEvent: {}
+[8.838672] (-) TimerEvent: {}
+[8.939816] (-) TimerEvent: {}
+[9.042501] (-) TimerEvent: {}
+[9.144372] (-) TimerEvent: {}
+[9.245014] (-) TimerEvent: {}
+[9.345887] (-) TimerEvent: {}
+[9.446761] (-) TimerEvent: {}
+[9.548671] (-) TimerEvent: {}
+[9.648868] (arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.649195] (-) TimerEvent: {}
+[9.669692] (arm_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.670384] (arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.671353] (arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.703590] (arm_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[9.749914] (-) TimerEvent: {}
+[9.851128] (-) TimerEvent: {}
+[9.951934] (-) TimerEvent: {}
+[10.032064] (arm_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.054146] (-) TimerEvent: {}
+[10.158848] (-) TimerEvent: {}
+[10.234411] (arm_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.261455] (-) TimerEvent: {}
+[10.353833] (arm_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[10.362334] (-) TimerEvent: {}
+[10.463903] (-) TimerEvent: {}
+[10.566057] (-) TimerEvent: {}
+[10.623880] (arm_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.624336] (arm_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.624495] (arm_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.627144] (arm_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.627558] (arm_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[10.630482] (arm_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.633604] (arm_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.637918] (arm_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.638132] (arm_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.641240] (arm_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.649136] (arm_description) StdoutLine: {'line': b'-- Configuring done (10.6s)\n'}
+[10.667394] (arm_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[10.667656] (-) TimerEvent: {}
+[10.673533] (arm_description) StdoutLine: {'line': b'-- Build files have been written to: /home/gene217/Projects/Arm/build/arm_description\n'}
+[10.685268] (arm_description) CommandEnded: {'returncode': 0}
+[10.686966] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'build'}
+[10.689342] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gene217/Projects/Arm/build/arm_description', '--', '-j16', '-l16'], 'cwd': '/home/gene217/Projects/Arm/build/arm_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gene217', 'GIT_ASKPASS': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/gene217', 'OLDPWD': '/home/gene217/Projects', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-60288c8d-551e-40ee-b10c-2644cf95d8c0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gene217', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/690_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/gene217/.bun/bin:/home/gene217/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/gene217/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/home/gene217/.local/bin:/home/gene217/.bun/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Meta Horizon/Support/oculus-runtime:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/SDK Manager:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/hdnat/.local/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/hdnat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hdnat/AppData/Roaming/npm:/mnt/c/Users/hdnat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Ollama:/mnt/c/Users/hdnat/.lmstudio/bin:/mnt/c/Users/hdnat/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Antigravity/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/iverilog/bin:/mnt/c/iverilog/gtkwave/bin:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0/Scripts:/mnt/c/Users/hdnat/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/hdnat/.bun/bin:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/gene217/fastdds_wifi.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76369b99a3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/gene217/Projects/Arm/build/arm_description', 'COPILOT_DEBUG_NONCE': '22ef15a76d5a7fa67c2b1122cb96fcc4', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[10.767903] (-) TimerEvent: {}
+[10.860316] (arm_description) CommandEnded: {'returncode': 0}
+[10.861897] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'install'}
+[10.868442] (-) TimerEvent: {}
+[10.881723] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gene217/Projects/Arm/build/arm_description'], 'cwd': '/home/gene217/Projects/Arm/build/arm_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gene217', 'GIT_ASKPASS': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/gene217', 'OLDPWD': '/home/gene217/Projects', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-60288c8d-551e-40ee-b10c-2644cf95d8c0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gene217', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/690_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/gene217/.bun/bin:/home/gene217/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/gene217/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/gene217/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/home/gene217/.local/bin:/home/gene217/.bun/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Meta Horizon/Support/oculus-runtime:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/SDK Manager:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/hdnat/.local/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/hdnat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hdnat/AppData/Roaming/npm:/mnt/c/Users/hdnat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Ollama:/mnt/c/Users/hdnat/.lmstudio/bin:/mnt/c/Users/hdnat/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/hdnat/AppData/Local/Programs/Antigravity/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/iverilog/bin:/mnt/c/iverilog/gtkwave/bin:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0/Scripts:/mnt/c/Users/hdnat/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/hdnat/.bun/bin:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/gene217/fastdds_wifi.xml', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76369b99a3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/gene217/Projects/Arm/build/arm_description', 'COPILOT_DEBUG_NONCE': '22ef15a76d5a7fa67c2b1122cb96fcc4', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[10.900700] (arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.901621] (arm_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.903785] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/urdf/arm.urdf.xacro\n'}
+[10.926162] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/launch/display.launch.py\n'}
+[10.948645] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/rviz/placeholder.c\n'}
+[10.970027] (-) TimerEvent: {}
+[10.972732] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description\n'}
+[10.995637] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description\n'}
+[11.017695] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.sh\n'}
+[11.036610] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv\n'}
+[11.056333] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/path.sh\n'}
+[11.070991] (-) TimerEvent: {}
+[11.075981] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/path.dsv\n'}
+[11.096856] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.bash\n'}
+[11.116882] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.sh\n'}
+[11.137284] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.zsh\n'}
+[11.158659] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.dsv\n'}
+[11.171584] (-) TimerEvent: {}
+[11.179758] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/package.dsv\n'}
+[11.205967] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/packages/arm_description\n'}
+[11.231972] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake\n'}
+[11.256554] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake\n'}
+[11.273258] (-) TimerEvent: {}
+[11.279779] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/package.xml\n'}
+[11.309963] (arm_description) CommandEnded: {'returncode': 0}
+[11.350156] (arm_description) JobEnded: {'identifier': 'arm_description', 'rc': 0}
+[11.351921] (-) EventReactorShutdown: {}

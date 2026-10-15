@@ -1,0 +1,26 @@
+[0.605s] Invoking command in '/home/gene217/Projects/Arm/build/arm_description': AMENT_PREFIX_PATH=/home/gene217/Projects/Arm/install/arm_kinematics:/home/gene217/Projects/Arm/install/arm_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gene217/Projects/Arm/build/arm_description -- -j16 -l16
+[0.698s] Invoked command in '/home/gene217/Projects/Arm/build/arm_description' returned '0': AMENT_PREFIX_PATH=/home/gene217/Projects/Arm/install/arm_kinematics:/home/gene217/Projects/Arm/install/arm_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gene217/Projects/Arm/build/arm_description -- -j16 -l16
+[0.726s] Invoking command in '/home/gene217/Projects/Arm/build/arm_description': AMENT_PREFIX_PATH=/home/gene217/Projects/Arm/install/arm_kinematics:/home/gene217/Projects/Arm/install/arm_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gene217/Projects/Arm/build/arm_description
+[0.747s] -- Install configuration: ""
+[0.748s] -- Execute custom install script
+[0.749s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/urdf/arm.urdf.xacro
+[0.750s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/launch/display.launch.py
+[0.751s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/rviz/Rev1.rviz
+[0.752s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/rviz/display.rviz
+[0.753s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/rviz/placeholder.c
+[0.753s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[0.754s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[0.754s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[0.755s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[0.756s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/path.sh
+[0.757s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/environment/path.dsv
+[0.758s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.bash
+[0.758s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.sh
+[0.758s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.zsh
+[0.759s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/local_setup.dsv
+[0.760s] -- Symlinking: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/package.dsv
+[0.786s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[0.786s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[0.787s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[0.787s] -- Up-to-date symlink: /home/gene217/Projects/Arm/install/arm_description/share/arm_description/package.xml
+[0.791s] Invoked command in '/home/gene217/Projects/Arm/build/arm_description' returned '0': AMENT_PREFIX_PATH=/home/gene217/Projects/Arm/install/arm_kinematics:/home/gene217/Projects/Arm/install/arm_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gene217/Projects/Arm/install/arm_kinematics:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gene217/Projects/Arm/build/arm_description

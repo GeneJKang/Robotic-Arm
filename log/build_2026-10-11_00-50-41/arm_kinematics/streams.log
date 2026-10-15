@@ -1,0 +1,18 @@
+[3.185s] Invoking command in '/home/gene217/Projects/Arm/build/arm_kinematics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gene217/Projects/Arm/build/arm_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gene217/Projects/Arm/install/arm_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gene217/Projects/Arm/build/arm_kinematics/build --no-deps symlink_data
+[4.032s] running develop
+[4.587s] running egg_info
+[4.649s] writing arm_kinematics.egg-info/PKG-INFO
+[4.650s] writing dependency_links to arm_kinematics.egg-info/dependency_links.txt
+[4.651s] writing entry points to arm_kinematics.egg-info/entry_points.txt
+[4.651s] writing requirements to arm_kinematics.egg-info/requires.txt
+[4.652s] writing top-level names to arm_kinematics.egg-info/top_level.txt
+[4.746s] reading manifest file 'arm_kinematics.egg-info/SOURCES.txt'
+[4.747s] writing manifest file 'arm_kinematics.egg-info/SOURCES.txt'
+[4.801s] running build_ext
+[4.802s] Creating /home/gene217/Projects/Arm/install/arm_kinematics/lib/python3.12/site-packages/arm-kinematics.egg-link (link to .)
+[4.803s] Installing ik_node script to /home/gene217/Projects/Arm/install/arm_kinematics/lib/arm_kinematics
+[4.805s] Installing marker_node script to /home/gene217/Projects/Arm/install/arm_kinematics/lib/arm_kinematics
+[4.805s] 
+[4.806s] Installed /home/gene217/Projects/Arm/build/arm_kinematics
+[4.806s] running symlink_data
+[4.915s] Invoked command in '/home/gene217/Projects/Arm/build/arm_kinematics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gene217/Projects/Arm/build/arm_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gene217/Projects/Arm/install/arm_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gene217/Projects/Arm/build/arm_kinematics/build --no-deps symlink_data

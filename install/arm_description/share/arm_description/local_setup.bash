@@ -1,0 +1,1 @@
+/home/gene217/Projects/Arm/build/arm_description/ament_cmake_environment_hooks/local_setup.bash

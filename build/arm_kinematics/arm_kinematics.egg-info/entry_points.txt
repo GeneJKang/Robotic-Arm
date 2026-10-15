@@ -1,0 +1,3 @@
+[console_scripts]
+ik_node = arm_kinematics.ik_node:main
+marker_node = arm_kinematics.marker_node:main
