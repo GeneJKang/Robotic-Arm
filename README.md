@@ -7,9 +7,9 @@ A 6-axis robotic arm built in ROS 2 with closed-form inverse kinematics, and clo
 ## Highlights
 
 +  Closed-form 6-DOF Inverse Kinematics
-  * Uses kinematic decoupling at a spherical wrist, solving the position first and then the orientation.
-  + The orientation uses ZYZ Euler angles and searches all 4 arm configurations during edge cases.
-  + Handles gimbal-lock, utilizing quaternions for rotation, and rejects any solution outside the set joint limits.
+    + Uses kinematic decoupling at a spherical wrist, solving the position first and then the orientation.
+    + The orientation uses ZYZ Euler angles and searches all 4 arm configurations during edge cases.
+    + Handles gimbal-lock, utilizing quaternions for rotation, and rejects any solution outside the set joint limits.
 + Interactive Control in RViz.
   + The RViz setup has a InteractiveMarker publisher that you can add to drag and control the robot's end effector.
 + Hardware Design
