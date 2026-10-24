@@ -56,6 +56,34 @@ Normal ROS 2 discovery uses multicast, which Wi-Fi access points often delay, dr
 
 The FastDDS discovery server runs on the Pi which is run by the deploy/fastdds-discovery.service. I had issues with WSL rejecting the inbound traffic but this shouldn't be an issue for regular linux users. I ended up using a Hyper-V firewall and changed how my IPs were set up for all WLAN connections on my WSL Ubuntu instance.
 
+Here are the settings I used for the discovery server:
+
+[Unit]
+
+Description=Fast DDS Discovery Server for ROS 2
+
+Wants=network-online.target
+
+After=network-online.target
+
+
+[Service]
+
+Type=simple
+
+User=CHANGE_ME
+
+ExecStart=/bin/bash -c 'source /opt/ros/jazzy/setup.bash && exec fastdds discovery -i 0 -p 11811'
+
+Restart=on-failure
+
+RestartSec=2
+
+
+[Install]
+
+WantedBy=multi-user.target
+
 
 ## Getting Started
 
