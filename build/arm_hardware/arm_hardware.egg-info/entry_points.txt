@@ -1,2 +1,0 @@
-[console_scripts]
-hardware_node = arm_hardware.hardware_node:main

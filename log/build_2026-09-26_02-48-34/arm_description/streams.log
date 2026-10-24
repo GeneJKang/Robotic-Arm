@@ -1,9 +1,0 @@
-[0.060s] Invoking command in '/home/gene217/Projects/Arm/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gene217/Projects/Arm/src/arm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gene217/Projects/Arm/install/arm_description
-[0.224s] [31mCMake Error at CMakeLists.txt:28:
-[0.224s]   Parse error.  Expected "(", got newline with text "
-[0.225s] 
-[0.225s]   ".
-[0.225s] 
-[0.225s] [0m
-[0.233s] -- Configuring incomplete, errors occurred!
-[0.244s] Invoked command in '/home/gene217/Projects/Arm/build/arm_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gene217/Projects/Arm/src/arm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gene217/Projects/Arm/install/arm_description
