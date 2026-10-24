@@ -13,7 +13,7 @@ class IKNode(Node):
     def __init__(self):
         super().__init__('ik_node') #Registers node under 'ik_node' as the name
         #Create a publisher as self.pub
-        self.pub = self.create_publisher(JointState, '/joint_commands', 10)   #Create a publisher that sends JointState messages under /joint_states as the name with 10 queue depth (messages to buffer)
+        self.pub = self.create_publisher(JointState, '/joint_commands', 10)   #Create a publisher that sends JointState messages under /joint_commands as the name with 10 queue depth (messages to buffer)
         
         #Compute target with fk(...) and run ik() on it and store as self.angles
         target = fk(0, 0, 0, 0, 0, 0)
