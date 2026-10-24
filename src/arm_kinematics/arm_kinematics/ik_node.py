@@ -20,7 +20,7 @@ class IKNode(Node):
         self.angles = ik(target)    #Store on self so timer_callback can access it
         
         #Create the timer pointing at self.timer_callback
-        self.timer = self.create_timer(0.01, self.timer_callback)    #0.1 period in secods so 10 times per second, self.timer_callback is what ROS uses to call each time
+        self.timer = self.create_timer(0.01, self.timer_callback)    #0.01 period in secods so 100 times per second, self.timer_callback is what ROS uses to call each time
 
 
         #Create the subscriber
