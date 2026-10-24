@@ -54,7 +54,7 @@ The solver returns the first configuration that satisfies every joint limit, or 
 
 Normal ROS 2 discovery uses multicast, which Wi-Fi access points often delay, drop, or block which is an issue. A Fast DDS Discovery Server on the Pi replaces it with unicast where each node registers with the server and gets back the addresses of its peers. It is a better alternative to what I am trying to do and once the nodes have found each other, topic data flows directly between them and never passes through the server.
 
-The FastDDS discovery server runs on the Pi which is run by the deploy/fastdds-discovery.service. I had issues with WSL rejecting the inbound traffic but this shouldn't be an issue for regular linux users. I ended up using a Hyper-V firewall and changed how my IPs were set up for all WLAN connections on my WSL Ubuntu instance.
+The FastDDS discovery server runs on the Pi which is run by the fastdds-discovery.service. I had issues with WSL rejecting the inbound traffic but this shouldn't be an issue for regular linux users. I ended up using a Hyper-V firewall and changed how my IPs were set up for all WLAN connections on my WSL Ubuntu instance.
 
 Here are the settings I used for the discovery server:
 
