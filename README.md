@@ -54,7 +54,7 @@ The solver returns the first configuration that satisfies every joint limit, or 
 
 Normal ROS 2 discovery uses multicast, which Wi-Fi access points often delay, drop, or block which is an issue. A Fast DDS Discovery Server on the Pi replaces it with unicast where each node registers with the server and gets back the addresses of its peers. It is a better alternative to what I am trying to do and once the nodes have found each other, topic data flows directly between them and never passes through the server.
 
-The FastDDS discovery server runs on the Pi which is run by the fastdds-discovery.service. I had issues with WSL rejecting the inbound traffic but this shouldn't be an issue for regular linux users. I ended up using a Hyper-V firewall and changed how my IPs were set up for all WLAN connections on my WSL Ubuntu instance.
+The FastDDS discovery server runs on the Pi which is run by the fastdds-discovery.service. I had issues with WSL rejecting the inbound traffic but this shouldn't be an issue for regular Linux users. I ended up using a Hyper-V firewall and changed how my IPs were set up for all WLAN connections on my WSL Ubuntu instance.
 
 Here are the settings I used for the discovery server:
 
@@ -101,19 +101,19 @@ source install/setup.bash
 
 ros2 launch arm_description display.launch.py
 
-RViz should launch and you can just drag the target marker (InteractionMarker) and the arm will track it.
+RViz should launch and you can just drag the target marker (InteractiveMarker) and the arm will track it.
 
 ## Hardware
 
 | Component | Part |
 | --- | --- |
 | Shoulder joints | 57HB250-112B hybrid servo (NEMA 23 closed-loop) + HB808C Motor Driver |
-| Elbow / Wrist joints | Nema 17 stepers + TMC2209 Motor Drivers |
+| Elbow / Wrist joints | NEMA 17 steppers + TMC2209 Motor Drivers |
 | Controller | Raspberry Pi 5 (networking) + Arduinos (Step Generators) |
 | Power | Mean Well LRS-350-24 (24 V, 350 W) with buck converters |
 
 The encoders on the motors are incremental so the position is lost after every power cycle. You could just never turn off the robot but the best thing to do is to have homing switches and at startup just zero in your motors.
 
-The reason why I moved the step generators from the Pi to the arduinos is due to jitter I experienced after testing. I ran the signals through a oscilloscope and with ROS running in the background the scheduler had a hard time keeping up with the pulses needed. I took inspiration from Klipper's 3D printers.
+The reason why I moved the step generators from the Pi to the Arduinos is due to jitter I experienced after testing. I ran the signals through a oscilloscope and with ROS running in the background the scheduler had a hard time keeping up with the pulses needed. I took inspiration from Klipper's 3D printers.
 
 I decided that when the IK has no valid solution the arm keeps publishing the last good configuration. It could go without it and the program can handle that but I decided it was better off to get rid of any unpredictable actions.
