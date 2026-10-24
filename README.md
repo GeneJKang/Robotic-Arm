@@ -21,7 +21,7 @@ A 6-axis robotic arm built in ROS 2 with closed-form inverse kinematics, and clo
 ## System Architecture
 
 <img width="1678" height="789" alt="image" src="https://github.com/user-attachments/assets/3ea1f413-6942-44d6-9e12-2f46bace1204" />
-<small><i>Diagram designed in Miro<i></small>
+<small><i>Diagram designed in Miro</i></small>
 
 Diagram will be updated as this project progresses.
 
