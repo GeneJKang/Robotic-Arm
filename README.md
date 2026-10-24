@@ -60,11 +60,17 @@ The FastDDS discovery server runs on the Pi which is run by the deploy/fastdds-d
 ## Getting Started
 
 git clone https://github.com/GeneJKang/Robotic-Arm.git
+
 cd Robotic-Arm
+
 rosdep install --from-paths src --ignore-src -y
+
 sudo apt install python3-scipy
+
 colcon build --symlink-install
+
 source install/setup.bash
+
 ros2 launch arm_description display.launch.py
 
 RViz should launch and you can just drag the target marker (InteractionMarker) and the arm will track it.
